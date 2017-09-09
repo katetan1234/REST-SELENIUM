@@ -4,7 +4,7 @@
   "description": "Creating startups, one landing page at a time.",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "StartupBot"
@@ -13,8 +13,10 @@
     "node": ">=0.12.0"
   },
   "dependencies": {
-    "request": "^2.67.0",
     "bluebird": "^3.2.2",
-    "parse-link-header": "^0.4.1"
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0",
+    "parse-link-header": "^0.4.1",
+    "request": "^2.67.0"
   }
 }

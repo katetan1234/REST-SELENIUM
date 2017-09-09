@@ -1,8 +1,9 @@
+
 var request = require('request');
 var fs = require("fs");
 var Promise = require('bluebird');
 var parse = require('parse-link-header');
-
+// module.exports = script
 
 ////// FILL IN THE BLANKS
 
@@ -46,5 +47,9 @@ function listBranches(owner,repo)
 {
 	
 }
+
+exports.getYourRepos = getYourRepos;
+
+
 
 
