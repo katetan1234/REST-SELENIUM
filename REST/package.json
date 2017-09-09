@@ -6,6 +6,9 @@
   "scripts": {
     "test": "mocha"
   },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
   "keywords": [
     "StartupBot"
   ],
